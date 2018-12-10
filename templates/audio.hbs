@@ -1,0 +1,8 @@
+<div class="audio-inner">
+{{#each _audio._items}}
+  {{#equals _name @root.options.value}}
+    <audio class="audio-player" src="{{_src}}"></audio>
+    <button class="playpause"></button>
+  {{/equals}}
+{{/each}}
+</div>

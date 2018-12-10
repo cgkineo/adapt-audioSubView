@@ -1,0 +1,22 @@
+.audio {
+  display: inline-block;
+
+  .playpause {
+    height: 25px;
+    width: 25px;
+    background: transparent;
+    padding: 0;
+
+    .audio--icon-play;
+
+    &:before {
+      color: black;
+    }
+
+  }
+
+  &.playing .playpause {
+    .audio--icon-pause;
+  }
+
+}

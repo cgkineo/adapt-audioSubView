@@ -1,0 +1,66 @@
+  {
+    "_id": "c-60",
+    "_parentId": "b-40",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "left",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_selectable": 1,
+    "title": "Multiple Choice Question {{subview name='audio' id='c-60' value='moose'}} ",
+    "displayTitle": "Multiple Choice Question {{subview name='audio' id='c-60' value='header'}} ",
+    "body": "In what year was the first recorded instance of a large scale assessment that consists solely of multiple choice questions?",
+    "instruction": "Choose one or more options and select Submit.",
+    "_items": [
+      {
+        "text": "1917",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "1888",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "1953",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "1977",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_audio": {
+      "_items": [
+        {
+          "_name": "correct",
+          "_src": "course/en/audio/correct.mp3"
+        },
+        {
+          "_name": "incorrect",
+          "_src": "course/en/audio/incorrect.mp3"
+        },
+        {
+          "_name": "header",
+          "_src": "course/en/audio/header.mp3"
+        },
+        {
+          "_name": "moose",
+          "_src": "course/en/audio/moose.mp3"
+        }
+      ]
+    },
+    "_feedback": {
+      "title": "Feedback",
+      "correct": "{{subview name='audio' id='c-60' value='correct'}} Correct feedback text.<br><br>That’s correct. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><em>Component facts: <strong>Multiple Choice Questions (or MCQs)</strong> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</em>",
+      "_incorrect": {
+        "final": "{{subview name='audio' id='c-60' value='incorrect'}} Incorrect feedback text.<br><br>That’s not right. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><em>Component facts: <strong>Multiple Choice Questions (or MCQs)</strong> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</em>"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
