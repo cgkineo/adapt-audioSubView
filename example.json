@@ -37,19 +37,19 @@
       "_items": [
         {
           "_name": "correct",
-          "_src": "course/en/audio/correct.mp3"
+          "_src": "assets/audio/correct.mp3"
         },
         {
           "_name": "incorrect",
-          "_src": "course/en/audio/incorrect.mp3"
+          "_src": "assets/audio/incorrect.mp3"
         },
         {
           "_name": "header",
-          "_src": "course/en/audio/header.mp3"
+          "_src": "assets/audio/header.mp3"
         },
         {
           "_name": "moose",
-          "_src": "course/en/audio/moose.mp3"
+          "_src": "assets/audio/moose.mp3"
         }
       ]
     },
