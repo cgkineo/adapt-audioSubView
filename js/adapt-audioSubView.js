@@ -10,9 +10,7 @@ define([
         attach: function() {
             this.$(".audio-player")
                 .off("play pause")
-                .on({
-                    "play pause": this.onStateChange.bind(this)
-                });
+                .on("play pause", this.onStateChange.bind(this));
             this.onStateChange();
         },
 
